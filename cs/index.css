@@ -1,6 +1,6 @@
 @font-face {
     font-family: dula;
-    src: url(../dimka.otf);
+    src: url("../dimka.otf");
 }
 :root{
 --flex:flex;
