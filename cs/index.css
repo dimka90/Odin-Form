@@ -1,6 +1,6 @@
 @font-face {
     font-family: dula;
-    src: url(/dimka.otf);
+    src: url(../dimka.otf);
 }
 :root{
 --flex:flex;
@@ -182,6 +182,9 @@ span{
     display: var(--flex);
     justify-content: center;
     align-items: center;
+   }
+   .img-leaf{
+    height: 100vh;
    }
    
 }
