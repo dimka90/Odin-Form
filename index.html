@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,54 +8,77 @@
     <title>Document</title>
     <link rel="stylesheet" href="./cs/index.css">
 </head>
+
 <body>
-   <div class="container">
-    <div class="flex">
-        <div class="col-1">
-            <img src="./image/leaf.avif">
-        </div>
-        <div class="col-2">
-            <div class="content row-1">
-                <p>This is not a real online service!You know 
-                    you need something amazing like this that helps your deepest  dreams.
-                </p>
-                <p>Sign up to get started</p>
-                <p>You know you want to.</p>
+    <div class="container">
+        <div class="flex">
+            <!-- col-1 start -->
+            <div class="col-1">
+                <img src="./image/leaf.avif" class="img-leaf">
+                <div class="p-absolute img ">
+                    <img src="./image/logo.png" alt="" srcset="">
+                    <p >Odin</p>
+                </div>
+             
             </div>
-            <div class="content row-2">
-                <form>
-                    <header>
-                        <h1>let do this </h1>
-                    </header>
-                   <div class="form-field">
-                    <label for="first-name">First Name</label>
-                    <input type="text" name="first-name" placeholder="First name" required>
-                   </div> 
-                   <div class="form-field">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" placeholder="Last name" required>
-                   </div>
+            <!-- col-1 end -->
+            <div class="col-2">
+                <div class="content row-1" class="mini-container">
+                    <p class="bold">This is not a real online service!You know
+                        you need something <br>amazing like this that helps your deepest dreams.
+                       <br> Sign up to get started
+                    </p>
 
-                   <div class="form-field">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" placeholder="odin@gmail.com" required>
-                   </div>
-
-                   <div class="form-field">
-                    <label for="password">Password</label>
-                    <input type="password" name="password"  required>
-                   </div>
-
-                   <div class="form-field">
-                    <label for="confirm-password">Password</label>
-                    <input type="password" name="confirm-password"  required>
-                   </div>
-                </form>
-            </div>
+                    <p class="bold">You know you want to.</p>
+                </div>
+                <div class="content row-2" >
+                    <h3>Lets do this</h3>
+                    <form class="flex">
                     
+                       
+                        <div class="form-field">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" placeholder="First name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" placeholder="Last name" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" placeholder="odin@gmail.com" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="text" name="phone-number" placeholder="12345" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="confirm-password">Password</label>
+                            <input type="password" name="confirm-password" required>
+                        </div>
+                        
+                    </form>
+
+                    <div class="button">
+                        <button type="submit">Create Account</button>
+
+                    </div>
+                    
+                </div>
+                <p class="account" id="account">Already have an account?<span>Log in</span></p> 
+
+            </div>
         </div>
+
     </div>
- 
-   </div>
 </body>
+
 </html>

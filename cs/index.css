@@ -1,0 +1,188 @@
+@font-face {
+    font-family: dula;
+    src: url(/dimka.otf);
+}
+:root{
+--flex:flex;
+--boldWeight:bold;
+/* margin: 0px;
+padding: 0px; */
+  
+}
+body{
+    /* font-family: dula;
+    font-weight: bold; */
+    background-color: black;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+}
+img{
+    width:100%;
+}
+.bold{
+    font-weight: var(--boldWeight);
+}
+/* styling the container */
+
+.container{
+    /* outline: 2px solid blue; */
+    width:70%;
+    margin: 0px auto;
+    background-color: white;
+    
+}
+
+/* styling flex container */
+.flex{
+    display: var(--flex);
+}
+/* styling flex children */
+.col-1{
+   width:40%;
+   position: relative;
+}
+
+.col-2{
+    width:60%;
+    /* outline: 2px solid green; */
+    width:70%;
+    height: 100vh;
+   
+   
+   
+    /* margin: 0px auto; */
+}
+
+/* styling img */
+
+.img-leaf{
+   height: 100%;
+}
+.p-absolute{
+    position: absolute;
+    top:25%;
+    display: var(--flex);
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    backdrop-filter:blur(2px);
+    opacity: 0.5;
+    color:white;
+    font-family: dula;
+ 
+    
+}
+
+.p-absolute p{
+    font-size: 5rem;
+    margin: 0px;
+
+}
+.p-absolute img{
+    /* background-color: green; */
+     width:20%;
+} 
+
+/* STYLING FORM */
+form{
+  
+    flex-wrap: wrap;
+    padding:0 2.5rem  0 2.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-bottom: 2rem;
+    /* outline: 2px solid yellow; */
+  
+}
+.form-field{
+    flex-basis: 50%;
+}
+input{
+    width:80%;
+    height: 1.8rem;
+    border: none;
+  outline: 0.2px solid gray;
+  border-radius: 2px;
+  margin-top:1rem;
+}
+input:focus{
+    outline:1px solid blue;
+}
+/* input:invalid{
+    outline:1px solid red;
+} */
+label{
+    display: block;
+}
+.row-1{
+    padding: 3rem 2.5rem 0 2.5rem;
+}
+.row-1 p{
+    font-size: 1.3rem;
+    word-spacing: 5px;
+
+ 
+}
+.row-2{
+width: 100px;
+ 
+    width:100%;
+}
+.row-2 h3
+{
+    margin-left: 2.5rem;
+}
+button{
+    margin:1.2rem  2.5rem ;
+    background-color: #596D48;
+    color:white;
+    padding:0.8rem 2.5rem;
+    border: 0px;
+    border-radius: 5px;
+    outline: 0px;
+
+}
+.account{
+    margin-left: 2.5rem;
+}
+span{
+    color:#596D48;
+    font-weight: var(--boldWeight);
+}
+
+@media (max-width:1100px) {
+   body{
+    background-color: white;
+   } 
+   .container{
+    width:90%;
+   }
+   .flex{
+    flex-direction: column;
+   }
+   .col-1,
+   .col-2{
+    width: 100%;
+   }
+   form{
+    
+   }
+   label{
+    font-size: 1.5rem;
+   }
+   input{
+    width:100%;
+    height: 50px;
+   };
+   #account{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+   }
+   .button{
+    display: var(--flex);
+    justify-content: center;
+    align-items: center;
+   }
+   
+}
+
