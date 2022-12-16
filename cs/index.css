@@ -2,6 +2,12 @@
     font-family: dula;
     src: url("../Fonts/dimka.otf");
 }
+root{
+    background-color: black;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+}
 :root{
 --flex:flex;
 --boldWeight:bold;
@@ -12,10 +18,7 @@ padding: 0px; */
 body{
     /* font-family: dula;
     font-weight: bold; */
-    background-color: black;
-    margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 0px;
+    
 }
 img{
     width:100%;
@@ -184,7 +187,7 @@ span{
     align-items: center;
    }
    .img-leaf{
-    height: 100vh;
+    height: 60vh;
    }
    
 }
